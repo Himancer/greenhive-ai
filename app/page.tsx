@@ -1,9 +1,11 @@
-
 'use client'
 
 import React, { useMemo, useRef, useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Search, Sprout, Sun, Water, Wind, ThermometerSun, Sparkles, MessageCircle, Leaf, Info, Droplets, Gauge, PawPrint, X } from 'lucide-react'
+import {
+  Search, Sprout, Sun, Droplet, Wind, ThermometerSun,
+  Sparkles, MessageCircle, Leaf, Info, Droplets, Gauge, PawPrint, X
+} from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
@@ -88,7 +90,6 @@ function Chatbot({ open, onClose }: { open: boolean; onClose: () => void }) {
 
 export default function Page() {
   const [q, setQ] = useState('')
-  const [selected, setSelected] = useState<any | null>(null)
   const [chatOpen, setChatOpen] = useState(false)
 
   const results = useMemo(() => {
@@ -145,7 +146,7 @@ export default function Page() {
             </div>
             <div className="mt-4 flex flex-wrap gap-2 text-sm opacity-80">
               <span className="inline-flex items-center gap-1"><Sun className="w-4 h-4" />Light</span>
-              <span className="inline-flex items-center gap-1"><Water className="w-4 h-4" />Water</span>
+              <span className="inline-flex items-center gap-1"><Droplet className="w-4 h-4" />Water</span>
               <span className="inline-flex items-center gap-1"><Droplets className="w-4 h-4" />Humidity</span>
               <span className="inline-flex items-center gap-1"><Gauge className="w-4 h-4" />Difficulty</span>
               <span className="inline-flex items-center gap-1"><PawPrint className="w-4 h-4" />Pet safety</span>
@@ -189,7 +190,7 @@ export default function Page() {
                   <p className="text-sm opacity-80 mb-4">{p.summary}</p>
                   <div className="grid grid-cols-2 gap-2 mb-3 text-sm">
                     <Trait icon={Sun} label="Light" value={p.traits.light} />
-                    <Trait icon={Water} label="Water" value={p.traits.water} />
+                    <Trait icon={Droplet} label="Water" value={p.traits.water} />
                     <Trait icon={Wind} label="Humidity" value={p.traits.humidity} />
                     <Trait icon={ThermometerSun} label="Temp" value={p.traits.temperature} />
                   </div>
