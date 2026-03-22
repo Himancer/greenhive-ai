@@ -1,21 +1,61 @@
+# GreenHive.ai 🌿
+> AI-powered plant nursery e-commerce built with Next.js 14, Tailwind, and Framer Motion.
 
-# GreenHive.ai — AI Nursery (Next.js 14)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
 
-A flashy, neon‑green plant nursery with animations and a built‑in chatbot.
-**Stack:** Next.js 14 (App Router) • Tailwind CSS • Framer Motion • lucide-react
+## 🎯 What it does
 
-## Quick Deploy (Vercel)
-1. Push this folder to a GitHub repo named `greenhive-ai` (or any name).
-2. Go to **vercel.com** → New Project → Import from GitHub → Deploy.
-3. Done. Next.js is auto-detected.
+GreenHive.ai is a modern, flashy, neon-green plant nursery with smooth animations and a built-in AI chatbot. It serves as a comprehensive plant catalog with dynamic filters and an interactive UI to help users find the perfect plants for their home or office.
 
-## Local Dev (optional)
+## ✨ Features
+
+- 🤖 **AI Chatbot** — Built-in assistant to help users with plant care and recommendations.
+- 🪴 **Dynamic Catalog** — Extensive plant data with filtering and image fallbacks.
+- 💫 **Smooth Animations** — Beautiful UI interactions powered by Framer Motion.
+- 📸 **Screenshots / Live Demo** — *(Coming Soon / Add your live Vercel link here)*
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Framework | Next.js 14 (App Router) |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Animations | Framer Motion |
+| Icons | lucide-react |
+
+## 🚀 How to run locally
+
 ```bash
-npm i
+# Clone the repository
+git clone https://github.com/Himancer/greenhive-ai.git
+
+# Navigate to the project directory
+cd greenhive-ai
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
 ```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Customize
-- Edit plant data in `lib/plants.ts`.
-- Chatbot endpoint: `app/api/ask/route.ts` (rule-based). Swap with an LLM later.
-- Branding in `app/layout.tsx` + header in `app/page.tsx`.
+## 🗺️ Roadmap
+
+- [x] Build core UI and catalog
+- [x] Implement rule-based chatbot endpoint
+- [ ] Swap rule-based bot with a real LLM (OpenAI/Gemini)
+- [ ] Connect to PostgreSQL database (see `greenhive-ai-db`)
+
+## 👤 Author
+
+**Himanshu Pandey**
+- GitHub: [@Himancer](https://github.com/Himancer)
+- LinkedIn: [himanshu-pandey](https://linkedin.com/in/himanshu-pandey-053660200)
+- Portfolio: [himanshu-dev.vercel.app](https://himanshu-dev.vercel.app)
+
+---
+*"Ab Nahi To Kab 🔥"*
