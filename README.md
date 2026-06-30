@@ -54,8 +54,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 **Himanshu Pandey**
 - GitHub: [@Himancer](https://github.com/Himancer)
-- LinkedIn: [himanshu-pandey](https://linkedin.com/in/himanshu-pandey-053660200)
-- Portfolio: [himanshu-dev.vercel.app](https://himanshu-dev.vercel.app)
-
----
-*"Ab Nahi To Kab 🔥"*
+- LinkedIn: [himanshu-pandey](https://www.linkedin.com/in/himanshu-pandey-053660200)
+- Portfolio: [himanshu-portfolio-website-sr22.vercel.app](https://himanshu-portfolio-website-sr22.vercel.app)
