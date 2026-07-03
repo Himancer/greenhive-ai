@@ -14,7 +14,7 @@ GreenHive.ai is a modern, flashy, neon-green plant nursery with smooth animation
 - 🤖 **AI Chatbot** — Built-in assistant to help users with plant care and recommendations.
 - 🪴 **Dynamic Catalog** — Extensive plant data with filtering and image fallbacks.
 - 💫 **Smooth Animations** — Beautiful UI interactions powered by Framer Motion.
-- 📸 **Screenshots / Live Demo** — *(Coming Soon / Add your live Vercel link here)*
+- 🌱 **Live Demo** — [greenhive-ai.vercel.app](https://greenhive-ai.vercel.app/)
 
 ## 🛠️ Tech Stack
 
